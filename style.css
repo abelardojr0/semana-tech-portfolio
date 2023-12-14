@@ -1,0 +1,91 @@
+body{
+    background-color: #262442;
+    font-family: "Nunito";
+    color: white;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu_logo{
+    max-width: 100px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.menu_logo:hover{
+    transform: scale(1.1);
+}
+
+.menu_lista{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu_lista_item{
+    color: #E74B7F;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 25px;
+}
+
+.menu_lista_item:hover{
+    color: #8e0e0e;
+}
+
+.menu_curriculo{
+    font-family: "Press Start 2P";
+    background-color: #E74B7F;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu_curriculo:hover{
+    background-color: #8e0e0e;
+}
+
+.home{
+    height: 100vh;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/920f6022-e07a-41b6-86fc-fd437916e200/dg99hwt-427a8e14-3213-4c6c-8fcc-07927e58abad.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkyMGY2MDIyLWUwN2EtNDFiNi04NmZjLWZkNDM3OTE2ZTIwMFwvZGc5OWh3dC00MjdhOGUxNC0zMjEzLTRjNmMtOGZjYy0wNzkyN2U1OGFiYWQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.k_8cc-XUDs8cve5T5Ky7yUfBwaaiMiYRDxrH60ZTLIk");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Press Start 2P";
+}
+
+.home_infos{
+    background-color:  #26244290;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.home_img{
+    max-width: 300px;
+    background-color:  #26244289;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.home_nome{
+    font-size: 35px;
+}
+.home_area{
+    font-size: 25px;
+    color:#E74B7F;
+}
